@@ -14,7 +14,7 @@ const routes = [
     { path: '/', element: <Landing /> },
     { path: '/about', element: <AboutUs /> },
     { path: '/course-info/:courseName', element: <CourseInfo /> },
-    { path: '/courses/:page', element: <Courses /> },
+    { path: '/courses', element: <Courses /> },
     { path: '/article-info/:articleName', element: <ArticleInfo /> },
     { path: '/articles/:page', element: <Articles /> },
     { path: '/teacher-info/:ID', element: <TeacherInfos /> },

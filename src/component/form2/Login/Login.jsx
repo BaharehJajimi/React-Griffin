@@ -109,7 +109,7 @@ export default function Login() {
           <form action="#" className="w-full">
             <div className="relative">
               <Input
-                className="w-full my-2 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-300 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full my-2 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-300 focus:bg-white focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 id="username"
                 type="text"
                 placeholder="نام کاربری یا آدرس ایمیل"
@@ -129,7 +129,7 @@ export default function Login() {
                 element="input"
                 id="password"
                 type="password"
-                className="w-full my-2 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-300 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full my-2 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-300 focus:bg-white focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 placeholder="رمز عبور"
                 validations={[
                   requiredValidator(),

@@ -74,7 +74,7 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li className="cursor-pointer">
-                      <Link className="text-blue-900 hover:text-blue-500 text-base lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10" to="/courses/:page">
+                      <Link className="text-blue-900 hover:text-blue-500 text-base lg:text-lg pt-10 md:pt-0 md:ml-5 lg:ml-10" to="/courses">
                         دوره های آموزشی
                       </Link>
                     </li>
