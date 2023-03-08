@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
-import Footer from "../Footer";
+import Navbar from "../layout/Navbar";
+import Breadcrumb from "../commen/Breadcrumb";
+import Footer from "../layout/Footer";
 import { Link } from "react-router-dom";
 import products from "../../core/productDatas";
 import {Button} from "../commen/Button"
@@ -28,14 +28,14 @@ export default function Courses() {
                 <img src={pro.avatar} alt="Hotel Photo" />
               </div>
               <div className="mt-1 pb-2 block">
-                <h2 className="text-slate-700 text-right">{pro.title}</h2>
+                <h2 className="text-blue-900 font-bold text-right">{pro.title}</h2>
 
                 <div className="mt-3 flex items-end justify-between">
-                  <p className="text-sm font-bold text-[#6C63FF] text-right">
+                  <p className="text-sm font-bold text-blue-600 text-right">
                     {pro.price}
                   </p>
                 </div>
-                <div><Button>سبد خرید</Button></div>
+                <div className=""><Button>سبد خرید</Button></div>
               </div>
             </Link>
           </article>

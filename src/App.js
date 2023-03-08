@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
 import { useRoutes } from "react-router-dom";
-import routes from './routes';
+import routes from "./routes";
+import ScrollToTop from "./component/scrollToTop/ScrollToTop";
 
 function App() {
-  const router = useRoutes(routes)
+  const router = useRoutes(routes);
   return (
-    <div className="App">
-        {router}
+    <div>
+      <ScrollToTop />
+      <div className="text-center">{router}</div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
-import CourseDetailBox from "../CourseDetailBox/CourseDetailBox";
-import Footer from "../Footer";
+import Navbar from "../layout/Navbar";
+import Breadcrumb from "../commen/Breadcrumb";
+import CourseDetailBox from "./CourseDetailBox";
+import Footer from "../layout/Footer";
 
 export default function CourseInfo() {
   return (

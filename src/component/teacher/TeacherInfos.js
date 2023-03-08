@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../Footer';
-import Navbar from './../Navbar';
+import Footer from '../layout/Footer';
+import Navbar from '../layout/Navbar';
 
 export default function TeacherInfos() {
 

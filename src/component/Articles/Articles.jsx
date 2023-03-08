@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
+import Navbar from "../layout/Navbar";
+import Breadcrumb from "../commen/Breadcrumb";
 import article from "../../core/articlesData";
 import { Link } from "react-router-dom";
-import Footer from "../Footer";
+import Footer from "../layout/Footer";
 
 export default function Articles() {
   return (

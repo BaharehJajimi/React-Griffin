@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./layout/Footer";
+import Navbar from "./layout/Navbar";
 import Team from "./teacher/Team";
 import CourseCard from "./course/CourseCard";
 import ArticleCard from "./Articles/ArticleCard";
@@ -9,6 +9,8 @@ import Header from "./Header";
 import AOS from "aos";
 import Statistic from "./Statistic";
 AOS.init();
+
+
 export default function Landing() {
   return (
     <div>
@@ -19,28 +21,27 @@ export default function Landing() {
 
         <Statistic />
 
-        <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-          <p className="text-center text-xl  sm:text-3xl  pb-5 font-bold">
+
+          <p className="text-center text-blue-900 font-bold text-lg sm:text-3xl pt-12">
             در چه حوزه ای می خوای متخصص بشی ؟
           </p>
-          <p className="text-center text-lg pb-10">
-            {" "}
+          <p className="text-center text-blue-900 text-sm sm:text-2xl pt-2 pb-12">
             بازار برای متخصص هاست و هیچ موقع بی کار نمی مونید
           </p>
           <CourseCard />
-        </div>
 
-        <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-          <p className="text-center text-blue-900 font-bold text-lg sm:text-3xl py-12">
+
+
+          <p className="text-center text-blue-900 font-bold text-lg sm:text-3xl pt-16 pb-12">
             اخبار و مقالات
           </p>
           <ArticleCard />
-        </div>
 
-        <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+
+
           <Team />
-        </div>
 
+        
         <Footer />
 
         <script

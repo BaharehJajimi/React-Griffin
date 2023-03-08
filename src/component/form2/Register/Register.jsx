@@ -9,9 +9,9 @@ import {
 } from "../../validators/rules";
 import AuthContext from "../../context/authContext";
 import Input from "../../FormDet/Input";
-import Button from "../../FormDet/Button";
-import Navbar from "../../Navbar";
-import Footer from "../../Footer";
+import {Button} from "../../commen/Button";
+import Navbar from "../../layout/Navbar";
+import Footer from "../../layout/Footer";
 
 export default function Register() {
   const authContext = useContext(AuthContext);
