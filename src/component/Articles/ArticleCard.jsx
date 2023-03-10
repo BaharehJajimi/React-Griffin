@@ -96,9 +96,6 @@ export default function ArticleCard() {
                     </div>
                     <p className="font-semibold text-left">81</p>
                   </a>
-                  <a className="text-blue-300 pr-24" href="#">ادامه
-                        <i class="fas fa-arrow-left text-sm pr-2 text-blue-300"></i>
-                      </a>
                 </div>
               </div>
             </div>

@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Team() {
   return (
-    <div className="min-h-screen flex flex-col py-10">
-      <p className="text-center text-lg sm:text-3xl py-10  font-medium">
-        تیم ما
-      </p>
+    <div className=" flex flex-col">
       <div className="mx-auto grid max-w-6xl  grid-cols-1 gap-6  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 ">
         {teacher.map((tea) => (
           <Link key={tea.id} to={`/teacher-info/${tea.id}`}>

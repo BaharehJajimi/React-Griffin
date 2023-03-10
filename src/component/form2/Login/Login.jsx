@@ -100,7 +100,7 @@ export default function Login() {
               کاربر جدید هستید؟
             </span>
             <Link
-              className="bg-orange-300 py-1 px-2 text-lg rounded-lg mr-3 hover:bg-orange-200 "
+              className="bg-orange-300 text-blue-900 py-1 px-2 text-lg rounded-lg mr-3 hover:bg-orange-200 "
               to="/register"
             >
               ثبت نام

@@ -10,7 +10,7 @@ export default function CourseCard() {
         {products.map((pro) => (
           <article className="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
             <Link to={`/course-info/${pro.courseName}`}>
-              <div className="relative flex items-end overflow-hidden rounded-xl">
+              <div className="relative flex justify-center overflow-hidden rounded-xl">
                 <img src={pro.avatar} alt="Hotel Photo" />
               </div>
 

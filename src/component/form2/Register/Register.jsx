@@ -79,7 +79,7 @@ export default function Register() {
             <span className="text-lg text-blue-500 leading-8">
               قبلا ثبت‌نام کرده‌اید؟{" "}
             </span>
-            <Link className="bg-orange-300 py-1 px-2 text-lg rounded-lg mr-3 hover:bg-orange-200" to="/login">
+            <Link className="bg-orange-300 text-blue-900 py-1 px-2 text-lg rounded-lg mr-3 hover:bg-orange-200" to="/login">
               وارد شوید
             </Link>
           </div>
@@ -149,7 +149,7 @@ export default function Register() {
               <i className="absolute top-3 left-5 leading-8 text-gray-400 fa fa-lock-open"></i>
             </div>
             <Button
-              className={`flex items-center relative w-full p-3 rounded-lg bg-orange-500 ${
+              className={`flex items-center relative p-3 rounded-lg bg-orange-500 ${
                 formState.isFormValid
                   ? "login-form__btn-success"
                   : "login-form__btn-error"
