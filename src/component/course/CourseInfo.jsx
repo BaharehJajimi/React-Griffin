@@ -1,10 +1,24 @@
-import React from "react";
+import React,{useState} from "react";
 import Navbar from "../layout/Navbar";
 import Breadcrumb from "../commen/Breadcrumb";
 import CourseDetailBox from "./CourseDetailBox";
 import Footer from "../layout/Footer";
+import { Link, useParams } from 'react-router-dom';
+import teacher from './../../core/teacherDatas';
+import products from './../../core/productDatas';
+
 
 export default function CourseInfo() {
+  
+  const { courseName } = useParams()
+  const product = products.find((product) => product.courseName === courseName)
+
+  const [courseDetails, setCourseDetails] = useState({});
+
+  const AddToCartHandler = () => {
+    console.log('helooooooo');
+
+  }
   return (
     <>
       <Navbar />

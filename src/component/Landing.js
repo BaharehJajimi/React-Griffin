@@ -7,7 +7,7 @@ import CourseCard from "./course/CourseCard";
 import ArticleCard from "./Articles/ArticleCard";
 import Header from "./Header";
 import AOS from "aos";
-import Statistic from "./Statistic";
+import Statistic from "./statistic/Statistic";
 import { HeaderSection } from "./commen/HeaderSection";
 import Categorises from "./categories/Categorises"
 import StudentIdea from "./studentIdea/StudentIdea"

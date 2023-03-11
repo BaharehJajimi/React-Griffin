@@ -13,7 +13,7 @@ export default function Categorises() {
           />
         </div>
         <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pr-12 lg:text-right text-center">
-          <div class="flex flex-col mb-10 lg:items-start items-center">
+          <div class="flex flex-col mb-10 lg:items-start items-center shadow-lg rounded-lg p-4">
             <div class="flex-grow">
               <h2 class="text-blue-900 text-lg title-font font-medium mb-3">
                 برنامه نویسی وب و موبایل
@@ -23,7 +23,7 @@ export default function Categorises() {
                 بازار برای توسعه دهندگان تلفن همراه به سرعت در حال افزایش است...
               </p>
               <a class="mt-3 text-indigo-500 flex justify-end ml-1 items-center">
-                Learn More
+                بیشتر بخوانید
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -38,7 +38,7 @@ export default function Categorises() {
               </a>
             </div>
           </div>
-          <div class="flex flex-col mb-10 lg:items-start items-center">
+          <div class="flex flex-col mb-10 lg:items-start items-center shadow-lg rounded-lg p-4">
             <div class="flex-grow">
               <h2 class="text-blue-900 text-lg title-font font-medium mb-3">
                 هوش مصنوعی
@@ -49,7 +49,7 @@ export default function Categorises() {
                 دارد...
               </p>
               <a class="mt-3 text-indigo-500 flex justify-end ml-1 items-center">
-                Learn More
+                بیشتر بخوانید
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -64,7 +64,7 @@ export default function Categorises() {
               </a>
             </div>
           </div>
-          <div class="flex flex-col mb-10 lg:items-start items-center">
+          <div class="flex flex-col mb-10 lg:items-start items-center shadow-lg rounded-lg p-4">
             <div class="flex-grow">
               <h2 class="text-blue-900 text-lg title-font font-medium mb-3">
                 هک و امنیت
@@ -75,7 +75,7 @@ export default function Categorises() {
                 HTTP غیرموجود در رابط کاربری است...
               </p>
               <a class="mt-3 text-indigo-500 flex justify-end ml-1 items-center">
-                Learn More
+                بیشتر بخوانید
                 <svg
                   fill="none"
                   stroke="currentColor"
