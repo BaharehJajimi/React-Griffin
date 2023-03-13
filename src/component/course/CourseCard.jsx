@@ -11,15 +11,15 @@ export default function CourseCard() {
           <article className="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
             <Link to={`/course-info/${pro.courseName}`}>
               <div className="relative flex justify-center overflow-hidden rounded-xl">
-                <img src={pro.avatar} alt="Hotel Photo" />
+                <img src={pro.picture} alt="Hotel Photo" />
               </div>
 
               <div className="mt-1 p-2 block">
-                <h2 className="text-blue-900 font-bold text-right">{pro.title}</h2>
+                <h2 className="text-blue-900 font-bold text-right">{pro.courseName}</h2>
 
                 <div className="mt-3 flex items-end justify-between">
                   <p className="text-sm font-bold text-[#6C63FF] text-right">
-                    {pro.price}
+                    {pro.coursePrice}
                   </p>
                 </div>
                 <div className="">

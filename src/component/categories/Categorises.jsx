@@ -8,8 +8,7 @@ export default function Categorises() {
           <img
             alt="feature"
             class="h-full w-full"
-            style={{ transform: "rotateY(180deg)" }}
-            src="/images/svgs/react.svg"
+            src="/images/Programmer2.jpg"
           />
         </div>
         <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pr-12 lg:text-right text-center">

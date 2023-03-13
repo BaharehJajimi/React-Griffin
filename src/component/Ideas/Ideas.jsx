@@ -12,7 +12,7 @@ export default function Ideas() {
           <img
             alt="feature"
             class="h-full w-full"
-            src="/images/svgs/Ideas.svg"
+            src="/images/opinion.png"
           />
         </div>
       </div>

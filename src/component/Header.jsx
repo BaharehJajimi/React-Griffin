@@ -3,7 +3,7 @@ import { Button } from "../component/commen/Button";
 
 const Header = () => {
   return (
-    <div className="App relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+    <div className="App relative bottom-14 z-0 flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
       <div
         style={{ transform: "rotateY(180deg)" }}
         className="inset-y-0 top-0 left-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0"

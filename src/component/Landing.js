@@ -12,6 +12,7 @@ import { HeaderSection } from "./commen/HeaderSection";
 import Categorises from "./categories/Categorises"
 import StudentIdea from "./studentIdea/StudentIdea"
 import Ideas from "./Ideas/Ideas"
+import Search from "./Search"
 AOS.init();
 
 export default function Landing() {
@@ -19,6 +20,7 @@ export default function Landing() {
     <div>
       <div>
         <Navbar />
+        <Search />
         <Header />
         <Statistic />
 
